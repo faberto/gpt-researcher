@@ -42,8 +42,6 @@ jobs:
         include:
           - platform_slash: "linux/amd64"
             runner_label: "ubuntu-latest"
-          - platform_slash: "linux/arm64"
-            runner_label: "ubuntu-22.04-arm"
     steps:
       - name: "Checkout repository"
         uses: "actions/checkout@v4"
@@ -138,8 +136,7 @@ jobs:
         include:
           - platform_slash: "linux/amd64"
             runner_label: "ubuntu-latest"
-          - platform_slash: "linux/arm64"
-            runner_label: "ubuntu-22.04-arm"
+         
     steps:
       - name: "Checkout repository"
         uses: "actions/checkout@v4"
@@ -234,8 +231,7 @@ jobs:
         include:
           - platform_slash: "linux/amd64"
             runner_label: "ubuntu-latest"
-          - platform_slash: "linux/arm64"
-            runner_label: "ubuntu-22.04-arm"
+
     steps:
       - name: "Checkout repository"
         uses: "actions/checkout@v4"
@@ -330,8 +326,7 @@ jobs:
         include:
           - platform_slash: "linux/amd64"
             runner_label: "ubuntu-latest"
-          - platform_slash: "linux/arm64"
-            runner_label: "ubuntu-22.04-arm"
+         
     steps:
       - name: "Checkout repository"
         uses: "actions/checkout@v4"
